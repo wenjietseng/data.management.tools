@@ -1,16 +1,17 @@
 Package: data.management.tools
-Title: What the Package Does (One Line, Title Case)
+Title: Manage Data for Empirical Experiments
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Wen-Jie",
+           family = "Tseng",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "wenjietseng@gmail.com")
+Description: A collection of my own data analysis and visualization functions 
+    for empirical user study (experiment) in Human-Computer Interaction (HCI) research.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Imports: 
+    car

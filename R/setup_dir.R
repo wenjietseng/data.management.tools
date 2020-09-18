@@ -1,3 +1,11 @@
+#' Setup the directory
+#'
+#' @param path The path to your directory
+#'
+#' @return current directory and the elements inside
+#' @export
+#'
+#' @examples
 setup_dir <- function (path) {
   if (is.null(path)) print("Please enter the path/to/your/directory")
   if (!is.character(path)) path <- as.character(path)
