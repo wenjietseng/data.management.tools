@@ -13,5 +13,18 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
-Imports: 
-    car
+Imports:
+    base,
+    car,
+    caret,
+    data.table,
+    dplyr,
+    ggplot2,
+    gridExtra,
+    Hmisc,
+    moments,
+    multcomp,
+    nlme,
+    reshape2,
+    rstatix,
+    utils
