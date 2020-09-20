@@ -3,7 +3,7 @@
 export(check_normality)
 export(load_pkgs)
 export(print_data_info)
-export(read_dta)
+export(read_data)
 export(setup_dir)
 import(ggplot2)
 importFrom(data.table,fread)
